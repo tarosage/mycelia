@@ -1,0 +1,34 @@
+{
+  "title": "IMG_6642 2.HEIC",
+  "description": "",
+  "imageViews": "1",
+  "creationTime": {
+    "timestamp": "1770193745",
+    "formatted": "Feb 4, 2026, 8:29:05 AM UTC"
+  },
+  "photoTakenTime": {
+    "timestamp": "1763248823",
+    "formatted": "Nov 15, 2025, 11:20:23 PM UTC"
+  },
+  "geoData": {
+    "latitude": 44.5649611,
+    "longitude": -123.2731028,
+    "altitude": 70.15344576306475,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "geoDataExif": {
+    "latitude": 44.5649611,
+    "longitude": -123.2731028,
+    "altitude": 70.15344576306475,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "url": "https://photos.google.com/photo/AF1QipOV1E2tpZmnL5SUiu7rB3U_fkiZXNoZOlpbbM09",
+  "googlePhotosOrigin": {
+    "webUpload": {
+      "computerUpload": {
+      }
+    }
+  }
+}

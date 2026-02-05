@@ -1,0 +1,34 @@
+{
+  "title": "IMG_6713.HEIC",
+  "description": "",
+  "imageViews": "1",
+  "creationTime": {
+    "timestamp": "1770193745",
+    "formatted": "Feb 4, 2026, 8:29:05 AM UTC"
+  },
+  "photoTakenTime": {
+    "timestamp": "1763579585",
+    "formatted": "Nov 19, 2025, 7:13:05 PM UTC"
+  },
+  "geoData": {
+    "latitude": 44.565105599999995,
+    "longitude": -123.28462219999999,
+    "altitude": 73.51251212415131,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "geoDataExif": {
+    "latitude": 44.565105599999995,
+    "longitude": -123.28462219999999,
+    "altitude": 73.51251212415131,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "url": "https://photos.google.com/photo/AF1QipOCKqY34MW_YRNqS_dmDEu5mJJ1ISuX4MpvBehy",
+  "googlePhotosOrigin": {
+    "webUpload": {
+      "computerUpload": {
+      }
+    }
+  }
+}

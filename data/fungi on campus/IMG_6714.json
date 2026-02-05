@@ -1,0 +1,34 @@
+{
+  "title": "IMG_6714.HEIC",
+  "description": "",
+  "imageViews": "1",
+  "creationTime": {
+    "timestamp": "1770193745",
+    "formatted": "Feb 4, 2026, 8:29:05 AM UTC"
+  },
+  "photoTakenTime": {
+    "timestamp": "1763579587",
+    "formatted": "Nov 19, 2025, 7:13:07 PM UTC"
+  },
+  "geoData": {
+    "latitude": 44.5651139,
+    "longitude": -123.28460000000001,
+    "altitude": 73.46955840083616,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "geoDataExif": {
+    "latitude": 44.5651139,
+    "longitude": -123.28460000000001,
+    "altitude": 73.46955840083616,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "url": "https://photos.google.com/photo/AF1QipNBK89q7XwjEyUXMDzBQ4so5z6eZ880TtQ1B92l",
+  "googlePhotosOrigin": {
+    "webUpload": {
+      "computerUpload": {
+      }
+    }
+  }
+}
