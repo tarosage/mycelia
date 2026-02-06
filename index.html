@@ -55,7 +55,7 @@
           });
 
 //adding points to the map, had to troubleshoot with chatGPT on this part
- fetch('data/fungi on campus/mushrooms.json')
+ fetch('data/campusfungi/mushrooms.json')
   .then(response => response.json())
   .then(data => {
     L.geoJSON(data, {
