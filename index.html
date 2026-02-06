@@ -5,48 +5,47 @@
 <!--HEAD-->
 <head>
      <style>
-          #map { 
-          height: 700px; 
-          width: 700px;
-          }
+          #map {height: 600px;  width: 600px;}
      </style>
 
 <title>TARO'S MYCELIAL FINDINGS</title>
 
 <!--Text for the webpage-->
-<h1>This map features cool mushrooms I've found on campus.</h1>
+<h1>This map features cool mushrooms I found on campus!</h1>
+<h1 style="font-family:'Times New Roman', Times, serif;"></h1>
+
 
 <!--Leaflet CSS File--> 
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
      crossorigin=""/>
 
-      <!--Leaflet JS File-->
- <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-     crossorigin=""></script>
-
 </head>
 
 <!--BODY-->
 <body>
 
+<!--Leaflet JS File-->
+ <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
+
  <!--div id-->
-<div id= "map" ></div>
+<div id= 'map' ></div>
      <script>
 
-     //initializing map and setting view to OSU
+//initializing map and setting view to OSU
 
-          var map = L.map("map").setView([44.5646, -123.2620], 13);
+          var map = L.map('map').setView([44.5646, -123.2620], 13);
 
-     //adding tiles
+//adding tiles
 
           L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
           maxZoom: 19,
           attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
           }).addTo(map);
 
-      //custom marker
+//custom marker
 
           var mushroomMarker = L.icon({
                iconUrl: 'mushroom marker.png',
@@ -55,15 +54,35 @@
                popupAnchor: [0, -38]
           });
 
-     //adding points to the map
+//adding points to the map, had to troubleshoot with chatGPT on this part
  fetch('data/fungi on campus/mushrooms.json')
-     .then(response => response.json())
-     .then(data => {
-      L.geoJSON(data), {icon: mushroomMarker}.addTo(map);
-})
-     .catch(error => console.error('Error connecting to mycelial network', error));
-      
-     </script>
+  .then(response => response.json())
+  .then(data => {
+
+    L.geoJSON(data, {
+      // turn each Point feature into a marker
+      pointToLayer: function (feature, latlng) {
+        return L.marker(latlng, { icon: mushroomMarker });
+      },
+
+      // attach popups using properties from your JSON
+      onEachFeature: function (feature, layer) {
+        if (feature.properties) {
+          const popupHTML = `
+            <strong>${feature.properties.popupContent}</strong><br>
+            <em>${feature.properties.dateFound}</em><br><br>
+            ${feature.properties.correspondingImage}
+          `;
+
+          layer.bindPopup(popupHTML);
+        }
+      }
+    }).addTo(map);
+
+  })
+  .catch(error =>
+    console.error('Error connecting to mycelial network', error)
+  );
 
 </body> 
 
