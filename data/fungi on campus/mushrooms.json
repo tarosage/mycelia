@@ -4,7 +4,7 @@
     {
       "type": "Feature",
       "properties": {
-        "corresponding image": "IMG_5618.PNG",
+        "corresponding image": "<img src = data/fungi on campus/pngs/IMG_5618.jpg width = 150px>",
         "date found": "Sep 24, 2025"
       },
       "geometry": {
@@ -18,7 +18,7 @@
     {
       "type": "Feature",
       "properties": {
-        "corresponding image": "IMG_6434.PNG",
+        "corresponding image": "<img src = data/fungi on campus/pngs/IMG_6434.jpg width = 150px>",
         "date found": "Oct 30, 2025"
       },
       "geometry": {
@@ -32,7 +32,7 @@
     {
       "type": "Feature",
       "properties": {
-        "corresponding image": "IMG_6435.PNG",
+        "corresponding image": "<img src = data/fungi on campus/pngs/IMG_6435.jpg width = 150px>",
         "date found": "Oct 30, 2025"
       },
       "geometry": {
@@ -46,7 +46,7 @@
     {
       "type": "Feature",
       "properties": {
-        "corresponding image": "IMG_6436.PNG",
+        "corresponding image": "<img src = data/fungi on campus/pngs/IMG_6436.jpg width = 150px>",
         "date found": "Oct 30, 2025"
       },
       "geometry": {
@@ -60,7 +60,7 @@
     {
       "type": "Feature",
       "properties": {
-        "corresponding image": "IMG_6437.PNG",
+        "corresponding image": "<img src = data/fungi on campus/pngs/IMG_6437.jpg width = 150px>",
         "date found": "Oct 30, 2025"
       },
       "geometry": {
@@ -74,7 +74,7 @@
     {
       "type": "Feature",
       "properties": {
-        "corresponding image": "IMG_6438.PNG",
+        "corresponding image": "<img src = data/fungi on campus/pngs/IMG_6438.jpg width = 150px>",
         "date found": "Oct 30, 2025"
       },
       "geometry": {
@@ -88,7 +88,7 @@
     {
       "type": "Feature",
       "properties": {
-        "corresponding image": "IMG_6439.PNG",
+        "corresponding image": "<img src = data/fungi on campus/pngs/IMG_6439.jpg width = 150px>",
         "date found": "Oct 30, 2025"
       },
       "geometry": {
@@ -102,7 +102,7 @@
     {
       "type": "Feature",
       "properties": {
-        "corresponding image": "IMG_6642 2.PNG",
+        "corresponding image": "<img src = data/fungi on campus/pngs/IMG_6442 2.jpg width = 150px>",
         "date found": "Nov 15, 2025"
       },
       "geometry": {
@@ -116,7 +116,7 @@
     {
       "type": "Feature",
       "properties": {
-        "corresponding image": "IMG_6712.PNG",
+        "corresponding image": "<img src = data/fungi on campus/pngs/IMG_6712.jpg width = 150px>",
         "date found": "Nov 19, 2025"
       },
       "geometry": {
@@ -130,7 +130,7 @@
     {
       "type": "Feature",
       "properties": {
-        "corresponding image": "IMG_6713.PNG",
+        "corresponding image": "<img src = data/fungi on campus/pngs/IMG_6713.jpg width = 150px>",
         "date found": "Nov 19, 2025"
       },
       "geometry": {
@@ -144,7 +144,7 @@
     {
       "type": "Feature",
       "properties": {
-        "corresponding image": "IMG_6714.PNG",
+        "corresponding image": "<img src = data/fungi on campus/pngs/IMG_6714.jpg width = 150px>",
         "date found": "Nov 19, 2025"
       },
       "geometry": {
@@ -158,7 +158,7 @@
     {
       "type": "Feature",
       "properties": {
-        "corresponding image": "IMG_6715.PNG",
+        "corresponding image": "<img src = data/fungi on campus/pngs/IMG_6715.jpg width = 150px>",
         "date found": "Nov 19, 2025"
       },
       "geometry": {
@@ -172,7 +172,7 @@
     {
       "type": "Feature",
       "properties": {
-        "corresponding image": "IMG_6716.PNG",
+        "corresponding image": "<img src = data/fungi on campus/pngs/IMG_6716.jpg width = 150px>",
         "date found": "Nov 19, 2025"
       },
       "geometry": {
@@ -186,7 +186,7 @@
     {
       "type": "Feature",
       "properties": {
-        "corresponding image": "IMG_6717.PNG",
+        "corresponding image":"<img src = data/fungi on campus/pngs/IMG_6717.jpg width = 150px>",
         "date found": "Nov 19, 2025"
       },
       "geometry": {
@@ -200,7 +200,7 @@
     {
       "type": "Feature",
       "properties": {
-        "corresponding image": "IMG_6720 2.PNG",
+        "corresponding image": "<img src = data/fungi on campus/pngs/IMG_6718.jpg width = 150px>",
         "date found": "Nov 19, 2025"
       },
       "geometry": {
@@ -214,7 +214,7 @@
     {
       "type": "Feature",
       "properties": {
-        "corresponding image": "IMG_6721.PNG",
+        "corresponding image": "<img src = data/fungi on campus/pngs/IMG_6721.jpg width = 150px>",
         "date found": "Nov 19, 2025"
       },
       "geometry": {
@@ -228,7 +228,7 @@
     {
       "type": "Feature",
       "properties": {
-        "corresponding image": "IMG_6722.PNG",
+        "corresponding image": "<img src = data/fungi on campus/pngs/IMG_6722.jpg width = 150px>",
         "date found": "Nov 19, 2025"
       },
       "geometry": {
@@ -242,7 +242,7 @@
     {
       "type": "Feature",
       "properties": {
-        "corresponding image": "IMG_6723.PNG",
+        "corresponding image": "<img src = data/fungi on campus/pngs/IMG_6723.jpg width = 150px>",
         "date found": "Nov 19, 2025"
       },
       "geometry": {
@@ -256,7 +256,7 @@
     {
       "type": "Feature",
       "properties": {
-        "corresponding image": "IMG_6724.PNG",
+        "corresponding image": "<img src = data/fungi on campus/pngs/IMG_6724.jpg width = 150px>",
         "date found": "Nov 19, 2025"
       },
       "geometry": {
@@ -270,7 +270,7 @@
     {
       "type": "Feature",
       "properties": {
-        "corresponding image": "IMG_8064.PNG",
+        "corresponding image": "<img src = data/fungi on campus/pngs/IMG_8064.jpg width = 150px>",
         "date found": "Jan 14, 2026"
       },
       "geometry": {
@@ -284,7 +284,7 @@
     {
       "type": "Feature",
       "properties": {
-        "corresponding image": "IMG_8065.PNG",
+        "corresponding image": "<img src = data/fungi on campus/pngs/IMG_8065.jpg width = 150px>",
         "date found": "Jan 14, 2026"
       },
       "geometry": {

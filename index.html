@@ -32,12 +32,12 @@
 <body>
 
  <!--div id-->
-<div id="map"></div>
+<div id= "map" ></div>
      <script>
 
      //initializing map and setting view to OSU
 
-          var map = L.map('map').setView([44.5646, -123.2620], 13);
+          var map = L.map("map").setView([44.5646, -123.2620], 13);
 
      //adding tiles
 
@@ -56,13 +56,13 @@
           });
 
      //adding points to the map
-       L.marker([44.5655778, -123.2730333], {icon: mushroomMarker}).addTo(map);
-
-          //adding popups
-          L.marker([44.5655778, -123.2730333], {icon: mushroomMarker}).addTo(map)
-               .bindPopup("<img src='data/fungi on campus/pngs/IMG_5618.jpg'' width='150px'/><br><b>Check out this agarikon (fomitopsis officinalis)!</b>"); 
-
-
+ fetch('data/fungi on campus/mushrooms.json')
+     .then(response => response.json())
+     .then(data => {
+      L.geoJSON(data), {icon: mushroomMarker}.addTo(map);
+})
+     .catch(error => console.error('Error connecting to mycelial network', error));
+      
      </script>
 
 </body> 
