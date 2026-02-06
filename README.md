@@ -28,10 +28,3 @@ PHASE 3
     customize markers, add popups
     reference properties and write code to include corresponding image in popups 
 -->
-
-<!-- 
-
-PHASE 4
-
-
--->
