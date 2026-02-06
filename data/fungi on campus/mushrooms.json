@@ -1,0 +1,299 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "corresponding image": "IMG_5618.PNG",
+        "date found": "Sep 24, 2025"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.2730333,
+          44.5655778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "corresponding image": "IMG_6434.PNG",
+        "date found": "Oct 30, 2025"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.2842861,
+          44.5637667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "corresponding image": "IMG_6435.PNG",
+        "date found": "Oct 30, 2025"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.2842861,
+          44.5637667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "corresponding image": "IMG_6436.PNG",
+        "date found": "Oct 30, 2025"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.2846917,
+          44.5642889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "corresponding image": "IMG_6437.PNG",
+        "date found": "Oct 30, 2025"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.2846917,
+          44.5642889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "corresponding image": "IMG_6438.PNG",
+        "date found": "Oct 30, 2025"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.284675,
+          44.5642889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "corresponding image": "IMG_6439.PNG",
+        "date found": "Oct 30, 2025"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.284675,
+          44.5642889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "corresponding image": "IMG_6642 2.PNG",
+        "date found": "Nov 15, 2025"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.2731028,
+          44.5649611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "corresponding image": "IMG_6712.PNG",
+        "date found": "Nov 19, 2025"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.2846139,
+          44.5651028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "corresponding image": "IMG_6713.PNG",
+        "date found": "Nov 19, 2025"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.2846222,
+          44.5651056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "corresponding image": "IMG_6714.PNG",
+        "date found": "Nov 19, 2025"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.2846,
+          44.5651139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "corresponding image": "IMG_6715.PNG",
+        "date found": "Nov 19, 2025"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.2845528,
+          44.5650722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "corresponding image": "IMG_6716.PNG",
+        "date found": "Nov 19, 2025"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.2845528,
+          44.5650667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "corresponding image": "IMG_6717.PNG",
+        "date found": "Nov 19, 2025"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.2845528,
+          44.5650667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "corresponding image": "IMG_6720 2.PNG",
+        "date found": "Nov 19, 2025"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.2845528,
+          44.5650889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "corresponding image": "IMG_6721.PNG",
+        "date found": "Nov 19, 2025"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.2847444,
+          44.5649917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "corresponding image": "IMG_6722.PNG",
+        "date found": "Nov 19, 2025"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.2845694,
+          44.5648806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "corresponding image": "IMG_6723.PNG",
+        "date found": "Nov 19, 2025"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.2845917,
+          44.5649139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "corresponding image": "IMG_6724.PNG",
+        "date found": "Nov 19, 2025"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.2845917,
+          44.5649083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "corresponding image": "IMG_8064.PNG",
+        "date found": "Jan 14, 2026"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.2769083,
+          44.5661167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "corresponding image": "IMG_8065.PNG",
+        "date found": "Jan 14, 2026"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.2769083,
+          44.5661167
+        ]
+      }
+    }
+  ]
+}
