@@ -54,10 +54,10 @@
                popupAnchor: [0, -38]
           });
 
-//adding points to the map, had to troubleshoot with chatGPT on this part
- fetch('data/campusfungi/mushrooms.json')
+fetch('data/campusfungi/mushrooms.json')
   .then(response => response.json())
   .then(data => {
+
     L.geoJSON(data, {
       // turn each Point feature into a marker
       pointToLayer: function (feature, latlng) {
@@ -65,26 +65,25 @@
       },
 
       // attach popups using properties from your JSON
-      onEachFeature: (feature, layer) => {
-  const p = feature.properties;
+      onEachFeature: function (feature, layer) {
+        const p = feature.properties;
 
-  const popupHTML = `
-    <strong>${p.popupContent}</strong><br>
-    <em>${p.dateFound}</em><br><br>
-    <img src="data/campusfungi/pngs/${p.correspondingImage}" width="150">
-  `;
+        const popupHTML = `
+          <strong>${p.popupContent}</strong><br>
+          <em>${p.dateFound}</em><br><br>
+          <img src="data/campusfungi/pngs/${p.correspondingImage}" width="150">
+        `;
 
-  layer.bindPopup(popupHTML);
-}
-
-        }
+        layer.bindPopup(popupHTML);
       }
+
     }).addTo(map);
 
   })
   .catch(err =>
-    console.error('Error connecting to mycelial network', err)
+    console.error('Error connecting to mycelial network 🍄', err)
   );
+
 </script>
 </body> 
 
