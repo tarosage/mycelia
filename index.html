@@ -65,22 +65,25 @@
       },
 
       // attach popups using properties from your JSON
-      onEachFeature: function (feature, layer) {
-        if (feature.properties) {
-          const popupHTML = `
-            <strong>${feature.properties.popupContent}</strong><br>
-            <em>${feature.properties.dateFound}</em><br><br>
-            ${feature.properties.correspondingImage}
-          `;
+      onEachFeature: (feature, layer) => {
+  const p = feature.properties;
 
-          layer.bindPopup(popupHTML);
+  const popupHTML = `
+    <strong>${p.popupContent}</strong><br>
+    <em>${p.dateFound}</em><br><br>
+    <img src="data/campusfungi/pngs/${p.correspondingImage}" width="150">
+  `;
+
+  layer.bindPopup(popupHTML);
+}
+
         }
       }
     }).addTo(map);
 
   })
-  .catch(error =>
-    console.error('Error connecting to mycelial network', error)
+  .catch(err =>
+    console.error('Error connecting to mycelial network', err)
   );
 </script>
 </body> 
