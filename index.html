@@ -32,6 +32,7 @@
 
  <!--div id-->
 <div id= 'map' ></div>
+
      <script>
 
 //initializing map and setting view to OSU
@@ -73,13 +74,11 @@ fetch('data/campusfungi/mushrooms.json')
   const popupHTML = `
     <strong>${p.popupContent}</strong><br>
     <em>${p.dateFound}</em><br><br>
-    <img src="https://raw.githubusercontent.com/tarosage/mycelia/main/data/campusfungi/images/${p.correspondingImage}" width="150">
-/${p.correspondingImage}" width="150">
+    <img src="data/campusfungi/images/${p.correspondingImage}" width="150">
   `;
 
   layer.bindPopup(popupHTML);
 }
-
 
     }).addTo(map);
 
