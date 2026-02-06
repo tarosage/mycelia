@@ -54,6 +54,8 @@
                popupAnchor: [0, -38]
           });
 
+
+//adding locations to the map, needed to troubleshoot with chatGPT here
 fetch('data/campusfungi/mushrooms.json')
   .then(response => response.json())
   .then(data => {
@@ -66,22 +68,23 @@ fetch('data/campusfungi/mushrooms.json')
 
       // attach popups using properties from your JSON
       onEachFeature: function (feature, layer) {
-        const p = feature.properties;
+  const p = feature.properties;
 
-        const popupHTML = `
-          <strong>${p.popupContent}</strong><br>
-          <em>${p.dateFound}</em><br><br>
-          <img src="data/campusfungi/pngs/${p.correspondingImage}" width="150">
-        `;
+  const popupHTML = `
+    <strong>${p.popupContent}</strong><br>
+    <em>${p.dateFound}</em><br><br>
+    <img src="data/campusfungi/images/${p.correspondingImage}" width="150">
+  `;
 
-        layer.bindPopup(popupHTML);
-      }
+  layer.bindPopup(popupHTML);
+}
+
 
     }).addTo(map);
 
   })
   .catch(err =>
-    console.error('Error connecting to mycelial network 🍄', err)
+    console.error('Error connecting to mycelial network.', err)
   );
 
 </script>
