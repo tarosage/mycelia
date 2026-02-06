@@ -10,10 +10,6 @@
 
 <title>TARO'S MYCELIAL FINDINGS</title>
 
-<!--Text for the webpage-->
-<h1>This map features cool mushrooms I found on campus!</h1>
-<h1 style="font-family:'Times New Roman', Times, serif;"></h1>
-
 
 <!--Leaflet CSS File--> 
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
@@ -24,6 +20,10 @@
 
 <!--BODY-->
 <body>
+
+<!--Text for the webpage-->
+<h1>This map features cool mushrooms I found on campus!</h1>
+<h1 style="font-family:'Times New Roman', Times, serif;"></h1>
 
 <!--Leaflet JS File-->
  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
@@ -58,7 +58,6 @@
  fetch('data/fungi on campus/mushrooms.json')
   .then(response => response.json())
   .then(data => {
-
     L.geoJSON(data, {
       // turn each Point feature into a marker
       pointToLayer: function (feature, latlng) {
@@ -83,7 +82,7 @@
   .catch(error =>
     console.error('Error connecting to mycelial network', error)
   );
-
+</script>
 </body> 
 
 </html>
