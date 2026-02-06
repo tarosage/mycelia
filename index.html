@@ -5,7 +5,7 @@
 <!--HEAD-->
 <head>
      <style>
-          #map {height: 600px;  width: 600px;}
+          #map {height: 700px;  width: 700px;}
      </style>
 
 <title>TARO'S MYCELIAL FINDINGS</title>
@@ -46,7 +46,7 @@
           attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
           }).addTo(map);
 
-//custom marker
+//custom marker icon
 
           var mushroomMarker = L.icon({
                iconUrl: 'mushroommarker.png',
@@ -72,10 +72,10 @@ fetch('data/campusfungi/mushrooms.json')
   const p = feature.properties;
 
   const popupHTML = `
-    <strong>${p.popupContent}</strong><br>
-    <em>${p.dateFound}</em><br><br>
-    <img src="data/campusfungi/images/${p.correspondingImage}" width="150">
-  `;
+  <strong>${p.popupContent}</strong><br>
+  <em>${p.dateFound}</em><br><br>
+  <img src= "https://raw.githubusercontent.com/tarosage/mycelia/refs/heads/main/data/campusfungi/images/${p.image}" width="150">
+`;
 
   layer.bindPopup(popupHTML);
 }
