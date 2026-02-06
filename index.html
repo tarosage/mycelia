@@ -67,7 +67,7 @@ fetch('data/campusfungi/mushrooms.json')
         return L.marker(latlng, { icon: mushroomMarker });
       },
 
-      // attach popups using properties from your JSON
+      // attach popups using properties from JSON
       onEachFeature: function (feature, layer) {
   const p = feature.properties;
 
