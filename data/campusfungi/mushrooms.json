@@ -6,7 +6,8 @@
       "properties": {
         "image": "IMG_5618.jpg",
         "dateFound": "Sep 24, 2025",
-        "popupContent": "FOUND ONE! This mushroom was cool enough to take a picture."
+        "popupContent": "FOUND ONE! This mushroom was cool enough to take a picture.",
+        "excitementLevel": "3"
       },
       "geometry": {
         "type": "Point",
@@ -21,7 +22,8 @@
       "properties": {
         "image": "IMG_6434.jpg",
         "dateFound": "Oct 30, 2025",
-        "popupContent": "FOUND ONE! This mushroom was cool enough to take a picture."
+        "popupContent": "FOUND ONE! This mushroom was cool enough to take a picture.",
+        "excitementLevel": "2"
       },
       "geometry": {
         "type": "Point",
@@ -36,7 +38,8 @@
       "properties": {
         "image": "IMG_6435.jpg",
         "dateFound": "Oct 30, 2025",
-        "popupContent": "FOUND ONE! This mushroom was cool enough to take a picture."
+        "popupContent": "FOUND ONE! This mushroom was cool enough to take a picture.",
+        "excitementLevel": "1"
       },
       "geometry": {
         "type": "Point",
@@ -51,7 +54,8 @@
       "properties": {
         "image": "IMG_6436.jpg",
         "dateFound": "Oct 30, 2025",
-        "popupContent": "FOUND ONE! This mushroom was cool enough to take a picture."
+        "popupContent": "FOUND ONE! This mushroom was cool enough to take a picture.",
+        "excitementLevel": "3"
       },
       "geometry": {
         "type": "Point",
@@ -66,7 +70,8 @@
       "properties": {
         "image": "IMG_6437.jpg",
         "dateFound": "Oct 30, 2025",
-        "popupContent": "FOUND ONE! This mushroom was cool enough to take a picture."
+        "popupContent": "FOUND ONE! This mushroom was cool enough to take a picture.",
+        "excitementLevel": "2"
       },
       "geometry": {
         "type": "Point",
@@ -81,7 +86,8 @@
       "properties": {
         "image": "IMG_6438.jpg",
         "dateFound": "Oct 30, 2025",
-        "popupContent": "FOUND ONE! This mushroom was cool enough to take a picture."
+        "popupContent": "FOUND ONE! This mushroom was cool enough to take a picture.",
+        "excitementLevel": "1"
       },
       "geometry": {
         "type": "Point",
@@ -96,7 +102,8 @@
       "properties": {
         "image": "IMG_6439.jpg",
         "dateFound": "Oct 30, 2025",
-        "popupContent": "FOUND ONE! This mushroom was cool enough to take a picture."
+        "popupContent": "FOUND ONE! This mushroom was cool enough to take a picture.",
+        "excitementLevel": "3"
       },
       "geometry": {
         "type": "Point",
@@ -111,7 +118,8 @@
       "properties": {
         "image": "IMG_6642_2.jpg",
         "dateFound": "Nov 15, 2025",
-        "popupContent": "FOUND ONE! This mushroom was cool enough to take a picture."
+        "popupContent": "FOUND ONE! This mushroom was cool enough to take a picture.",
+        "excitementLevel": "2"
       },
       "geometry": {
         "type": "Point",
@@ -126,7 +134,8 @@
       "properties": {
         "image": "IMG_6712.jpg",
         "dateFound": "Nov 19, 2025",
-        "popupContent": "FOUND ONE! This mushroom was cool enough to take a picture."
+        "popupContent": "FOUND ONE! This mushroom was cool enough to take a picture.",
+        "excitementLevel": "1"
       },
       "geometry": {
         "type": "Point",
@@ -141,7 +150,8 @@
       "properties": {
         "image": "IMG_6713.jpg",
         "dateFound": "Nov 19, 2025",
-        "popupContent": "FOUND ONE! This mushroom was cool enough to take a picture."
+        "popupContent": "FOUND ONE! This mushroom was cool enough to take a picture.",
+        "excitementLevel": "3"
       },
       "geometry": {
         "type": "Point",
@@ -156,7 +166,8 @@
       "properties": {
         "image": "IMG_6714.jpg",
         "dateFound": "Nov 19, 2025",
-        "popupContent": "FOUND ONE! This mushroom was cool enough to take a picture."
+        "popupContent": "FOUND ONE! This mushroom was cool enough to take a picture.",
+        "excitementLevel": "2"
       },
       "geometry": {
         "type": "Point",
@@ -171,7 +182,8 @@
       "properties": {
         "image": "IMG_6715.jpg",
         "dateFound": "Nov 19, 2025",
-        "popupContent": "FOUND ONE! This mushroom was cool enough to take a picture."
+        "popupContent": "FOUND ONE! This mushroom was cool enough to take a picture.",
+        "excitementLevel": "1"
       },
       "geometry": {
         "type": "Point",
@@ -186,7 +198,8 @@
       "properties": {
         "image": "IMG_6716.jpg",
         "dateFound": "Nov 19, 2025",
-        "popupContent": "FOUND ONE! This mushroom was cool enough to take a picture."
+        "popupContent": "FOUND ONE! This mushroom was cool enough to take a picture.",
+        "excitementLevel": "3"
       },
       "geometry": {
         "type": "Point",
@@ -201,7 +214,8 @@
       "properties": {
         "image": "IMG_6717.jpg",
         "dateFound": "Nov 19, 2025",
-        "popupContent": "FOUND ONE! This mushroom was cool enough to take a picture."
+        "popupContent": "FOUND ONE! This mushroom was cool enough to take a picture.",
+        "excitementLevel": "2"
       },
       "geometry": {
         "type": "Point",
@@ -216,7 +230,8 @@
       "properties": {
         "image": "IMG_6720_2.jpg",
         "dateFound": "Nov 19, 2025",
-        "popupContent": "FOUND ONE! This mushroom was cool enough to take a picture."
+        "popupContent": "FOUND ONE! This mushroom was cool enough to take a picture.",
+        "excitementLevel": "1"
       },
       "geometry": {
         "type": "Point",
@@ -231,7 +246,8 @@
       "properties": {
         "image": "IMG_6721.jpg",
         "dateFound": "Nov 19, 2025",
-        "popupContent": "FOUND ONE! This mushroom was cool enough to take a picture."
+        "popupContent": "FOUND ONE! This mushroom was cool enough to take a picture.",
+        "excitementLevel": "3"
       },
       "geometry": {
         "type": "Point",
@@ -246,7 +262,8 @@
       "properties": {
         "image": "IMG_6722.jpg",
         "dateFound": "Nov 19, 2025",
-        "popupContent": "FOUND ONE! This mushroom was cool enough to take a picture."
+        "popupContent": "FOUND ONE! This mushroom was cool enough to take a picture.",
+        "excitementLevel": "2"
       },
       "geometry": {
         "type": "Point",
@@ -261,7 +278,8 @@
       "properties": {
         "image": "IMG_6723.jpg",
         "dateFound": "Nov 19, 2025",
-        "popupContent": "FOUND ONE! This mushroom was cool enough to take a picture."
+        "popupContent": "FOUND ONE! This mushroom was cool enough to take a picture.",
+        "excitementLevel": "1"
       },
       "geometry": {
         "type": "Point",
@@ -276,7 +294,8 @@
       "properties": {
         "image": "IMG_6724.jpg",
         "dateFound": "Nov 19, 2025",
-        "popupContent": "FOUND ONE! This mushroom was cool enough to take a picture."
+        "popupContent": "FOUND ONE! This mushroom was cool enough to take a picture.",
+        "excitementLevel": "3"
       },
       "geometry": {
         "type": "Point",
@@ -291,7 +310,8 @@
       "properties": {
         "image": "IMG_8064.jpg",
         "dateFound": "Jan 14, 2026",
-        "popupContent": "FOUND ONE! This mushroom was cool enough to take a picture."
+        "popupContent": "FOUND ONE! This mushroom was cool enough to take a picture.",
+        "excitementLevel": "2"
       },
       "geometry": {
         "type": "Point",
@@ -306,7 +326,8 @@
       "properties": {
         "image": "IMG_8065.jpg",
         "dateFound": "Jan 14, 2026",
-        "popupContent": "FOUND ONE! This mushroom was cool enough to take a picture."
+        "popupContent": "FOUND ONE! This mushroom was cool enough to take a picture.",
+        "excitementLevel": "1"
       },
       "geometry": {
         "type": "Point",
