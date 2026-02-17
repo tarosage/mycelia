@@ -9,7 +9,8 @@ var map = L.map('map').setView([44.5646, -123.2620], 13);
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 }).addTo(map);
 
-//custom marker
+//custom marker icon
+
           var mushroomMarker = L.icon({
                iconUrl: 'mushroommarker.png',
                iconSize: [38, 38],
@@ -17,17 +18,19 @@ var map = L.map('map').setView([44.5646, -123.2620], 13);
                popupAnchor: [0, -38]
           });
 
+
 //adding locations to the map, needed to troubleshoot with chatGPT here
 fetch('data/campusfungi/mushrooms.json')
   .then(response => response.json())
   .then(data => {
 
     L.geoJSON(data, {
+      // turn each Point feature into a marker
       pointToLayer: function (feature, latlng) {
-        return L.icon([latlng], {icon: mushroomMarker}).addTo(map);
+        return L.marker(latlng, { icon: mushroomMarker });
       },
 
-// attach popups using properties from JSON
+      // attach popups using properties from your JSON
       onEachFeature: function (feature, layer) {
   const p = feature.properties;
 
