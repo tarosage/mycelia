@@ -4,7 +4,6 @@ var map = L.map('map').setView([44.5646, -123.2620], 13);
 //adding tiles
     L.tileLayer('https://api.mapbox.com/styles/v1/tarosage/cmm05cp7o003t01su2jom52sy/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoidGFyb3NhZ2UiLCJhIjoiY21semloeDZwMDc3ZzNlcTJ0ZmNvYjZ3eiJ9.gz6DoGzeLKlwzKzmeDveUQ', {
     maxZoom: 19,
-    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 }).addTo(map);
 
 
